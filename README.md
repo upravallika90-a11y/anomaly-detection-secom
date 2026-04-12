@@ -36,3 +36,26 @@ This project detects anomalies (machine failures) in semiconductor manufacturing
 ### 1. Train Model
 ```bash
 python train.py
+
+## 🔮 Sample API Output
+
+```json
+{
+  "prediction": "Anomaly"
+}
+
+
+---
+
+# 🟢 3. Show Project Output Explanation
+
+Add:
+
+```markdown id="9md3ef"
+## 📈 Result
+
+- The model detects whether the input data is:
+  - ✅ Normal
+  - ⚠️ Anomaly
+
+- PCA visualization helps in understanding data distribution
